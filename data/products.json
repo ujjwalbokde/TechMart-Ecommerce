@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "name": "MacBook Pro 16",
+    "slug": "macbook-pro-16",
+    "description": "Powerful laptop with M3 chip, perfect for developers and creators",
+    "price": 239900,
+    "category": "laptops",
+    "inventory": 15,
+    "lastUpdated": "2025-10-27T15:30:00.000Z"
+  },
+  {
+    "id": "2",
+    "name": "iPhone 15 Pro",
+    "slug": "iphone-15-pro",
+    "description": "Latest iPhone with A17 Pro chip and titanium design",
+    "price": 134900,
+    "category": "phones",
+    "inventory": 8,
+    "lastUpdated": "2025-10-27T14:20:00.000Z"
+  },
+  {
+    "id": "3",
+    "name": "Sony WH-1000XM5",
+    "slug": "sony-wh-1000xm5",
+    "description": "Industry-leading noise cancellation headphones",
+    "price": 29990,
+    "category": "audio",
+    "inventory": 25,
+    "lastUpdated": "2025-10-27T13:15:00.000Z"
+  },
+  {
+    "id": "4",
+    "name": "Logitech MX Master 3S",
+    "slug": "logitech-mx-master-3s",
+    "description": "Premium wireless mouse for productivity",
+    "price": 9995,
+    "category": "accessories",
+    "inventory": 42,
+    "lastUpdated": "2025-10-27T12:00:00.000Z"
+  },
+  {
+    "id": "5",
+    "name": "Dell UltraSharp 27",
+    "slug": "dell-ultrasharp-27",
+    "description": "4K monitor with excellent color accuracy",
+    "price": 45000,
+    "category": "monitors",
+    "inventory": 5,
+    "lastUpdated": "2025-10-27T11:30:00.000Z"
+  },
+  {
+    "name": "Airdope 161 Boat",
+    "slug": "airdope-161-boat",
+    "description": "ABC",
+    "price": 800,
+    "category": "accessories",
+    "inventory": 50,
+    "lastUpdated": "2025-10-27T16:59:37.035Z",
+    "id": "1761583761446"
+  }
+]
