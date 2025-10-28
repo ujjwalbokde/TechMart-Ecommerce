@@ -11,11 +11,7 @@ export async function GET() {
 }
 
 export async function POST(request) {
-  const authKey = request.headers.get('x-api-key')
-  if (authKey !== 'your-secret-key') {
-    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
-  }
-
+  
   const newProduct = await request.json()
   const data = await fs.readFile(filePath, 'utf8')
   const products = JSON.parse(data)
