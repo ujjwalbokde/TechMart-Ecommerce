@@ -36,6 +36,8 @@ Then open your browser at 👉 http://localhost:3000
 npm run build
 npm start
 
+```bash
+
 </details>
 🧩 Project Structure
 <details> <summary><b>🗂️ Expand to view file layout</b></summary>
