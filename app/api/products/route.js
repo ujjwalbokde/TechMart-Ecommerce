@@ -11,7 +11,7 @@ export async function GET() {
 }
 
 export async function POST(request) {
-  
+  console.log(request)
   const newProduct = await request.json()
   const data = await fs.readFile(filePath, 'utf8')
   const products = JSON.parse(data)

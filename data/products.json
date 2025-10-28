@@ -58,5 +58,13 @@
     "inventory": 50,
     "lastUpdated": "2025-10-27T16:59:37.035Z",
     "id": "1761583761446"
+  },
+  {
+    "name": "MacBook Pro 17",
+    "slug": "macbook-pro-17",
+    "description": "Powerful laptop with M3 chip, perfect for developers and creators",
+    "price": 200900,
+    "category": "laptops",
+    "inventory": 16
   }
 ]
