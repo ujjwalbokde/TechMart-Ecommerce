@@ -32,17 +32,17 @@ npm install
 npm run dev
 
 ```
-Then open your browser at 👉 http://localhost:3000
+### Then open your browser at 👉 http://localhost:3000
 
-🏗️ Build for Production
+### 🏗️ Build for Production
 npm run build
 npm start
 
 ---
 
-</details>
-🧩 Project Structure
-<details> <summary><b>🗂️ Expand to view file layout</b></summary>
+
+### 🧩 Project Structure
+🗂️ Expand to view file layout
 ecommerce-app/
 ├── app/
 │   ├── layout.js               # Root layout
@@ -61,20 +61,21 @@ ecommerce-app/
 ├── tailwind.config.js
 └── package.json
 
-</details>
-⚙️ Rendering Strategies Explained
-Page	Rendering Type	Implementation	Reason
-/	SSG (Static Site Generation)	Pre-rendered at build time	Fast, SEO-friendly, ideal for static product lists
-/products/[slug]	ISR (60s)	export const revalidate = 60	Updates every 60s for fresh inventory/pricing
-/dashboard	SSR (Server Side Rendering)	export const dynamic = 'force-dynamic'	Real-time, accurate inventory stats
-/admin	CSR (Client Side Rendering)	'use client' + useEffect()	Interactive admin page, no SEO need
-/recommendations	Hybrid	Mix of Server + Client components	Best of both — fast data, dynamic interactivity
 
-🗃️ Database Setup
+### ⚙️ Rendering Strategies Explained
+| Page	| Rendering Type	| Implementation	| Reason |
+|-------|----------------|-----------------|--------|
+| /	| SSG (Static Site Generation)	| Pre-rendered at build time	| Fast, SEO-friendly, ideal for static product lists |
+| /products/[slug]	| ISR (60s)	| export const revalidate = 60	| Updates every 60s for fresh inventory/pricing |
+| /dashboard	| SSR (Server Side Rendering)	| export const dynamic = 'force-dynamic'	| Real-time, accurate inventory stats |
+| /admin	| CSR (Client Side Rendering)	| 'use client' + useEffect()	| Interactive admin page, no SEO need |
+| /recommendations	| Hybrid	| Mix of Server + Client components	| Best of both — fast data, dynamic interactivity |
+
+### 🗃️ Database Setup
 
 This project uses a local JSON file as its database.
 
-<details> <summary><b>📘 View database info</b></summary>
+📘 View database info
 📍 Location
 
 data/products.json
@@ -95,18 +96,18 @@ It’s pre-included and ready to use.
   "lastUpdated": "2025-10-28T10:00:00Z"
 }
 
-</details>
-🔗 API Routes
-Method	Endpoint	Description	
-GET	/api/products	Fetch all products	
-GET	/api/products/[slug]	Fetch single product	
-POST	/api/products	Add a product	
-PUT	/api/products/[id]	Update a product	
+
+### 🔗 API Routes
+Method	    Endpoint	                Description	
+GET	    /api/products	        Fetch all products	
+GET	    /api/products/[slug]	Fetch single product	
+POST	    /api/products	        Add a product	
+PUT	    /api/products/[id]	    Update a product	
 
 
-🌍 Deployment Notes
+### 🌍 Deployment Notes
 
-🧭 Live Demo: [https://tech-mart-ecommerce.vercel.app/]
+* 🧭 Live Demo: https://tech-mart-ecommerce.vercel.app/ 
 
 Works on Deployment	Not Supported on Deployment
 ✅ Home page	❌ Admin Add/Edit
@@ -117,25 +118,16 @@ Works on Deployment	Not Supported on Deployment
 🧾 Reason: Vercel hosting disallows fs.writeFile() on serverless runtime.
 💡 Fix: Use a real database (e.g., MongoDB, Supabase, or PostgreSQL) for production.
 
-🧠 Technologies Used
-Stack	Tools
+### 🧠 Technologies Used
+Stack	    Tools
 Frontend	Next.js 15, React 18.3.1
-Styling	Tailwind CSS
+Styling	    Tailwind CSS
 Language	JavaScript (ES6+)
 Database	Local JSON file
 Deployment	Vercel
 
-✨ Features
 
-✅ Product listing with filters and search
-✅ Dynamic product detail pages
-✅ Real-time dashboard
-✅ Admin panel
-✅ Responsive Tailwind UI
-✅ Demonstrates all 5 rendering modes
-✅ Server + Client components
-
-📘 Viewing the Project Report (p.pdf)
+### 📘 Viewing the Project Report (p.pdf)
 
 To read the full project report:
 
