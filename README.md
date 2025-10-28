@@ -42,7 +42,10 @@ npm start
 
 
 ### 🧩 Project Structure
-🗂️ Expand to view file layout
+
+<details>
+<summary><b>🗂️ Expand to view file layout</b></summary>
+
 ecommerce-app/
 ├── app/
 │   ├── layout.js               # Root layout
@@ -60,6 +63,9 @@ ecommerce-app/
 │   └── products.json           # Local JSON database
 ├── tailwind.config.js
 └── package.json
+
+
+</details>
 
 
 ### ⚙️ Rendering Strategies Explained
